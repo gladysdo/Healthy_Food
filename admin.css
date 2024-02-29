@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.centa{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    width: 100%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+.tbl-full tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+.tbl-full tr td {
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #70a1ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #ff6348;
+}
+
+.btn-secondary{
+    background-color: #12CBC4;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: #26de81;
+}
+
+
+.btn-danger{
+    background-color: #ED4C67;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: #EA2027;
+}
+
+.success{
+    color: #C4E538;
+}
+.error{
+    color: #EE5A24;
+}
+
+
+/* css for menu */
+.menu{
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+.menu ul{
+    List-style: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul  li a:hover{
+    color: #12CBC4;
+}
+/* css for main-content*/
+.main-content{
+    background-color: #a4b0be;
+    padding: 3% 0;   
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* css for footer */
+.footer{
+    background-color: #12CBC4;
+    color: white;
+}
+
+.login{
+    background-color: #70a1ff;
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+
+}
